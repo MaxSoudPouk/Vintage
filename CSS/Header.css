@@ -1,0 +1,61 @@
+@import url(/CSS/);
+
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  }
+
+.hero-section{
+    width: 100%;
+    height: calc(100vh);
+    background-image: url('../asset/pic/pexels-karolina-grabowska-4219884.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-size{
+    color: var(--Text-product );
+    font-size: 80px;
+    padding-bottom: 50px;
+}
+
+.hero-section .main-headline{
+    display: block;
+    width: 80%;
+    height: 50%;
+    align-items: flex-start;
+}
+
+.hero-section .button-shopnew{
+
+    border: none;
+    color: white;
+    background-color: var(--button-shopNew);
+    border: black;
+    border-style: solid;
+    letter-spacing: 2.5px;
+    padding: 25px 30px 25px 30px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.hero-section:hover .button-shopnew{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.button-shopnew:hover{
+    background: #ffffff;
+    border: black;
+    border-style: solid;
+    color: #000;
+}

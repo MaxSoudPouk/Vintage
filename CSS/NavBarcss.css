@@ -1,0 +1,70 @@
+@import url(/CSS/Colors.css);
+*{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Colors nav bar */
+
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--background-navbar-color);
+}
+
+.topnav a {
+  float: left;
+  color: #000000;
+  padding: 33px 16px 20px 33px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  color: var(--hover-navbar-text);
+}
+
+.topnav a.active {
+  font-size: 35px;
+  letter-spacing: 2.5px;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 20px;
+}
+.topnav-right a{
+  padding-right: 55px;
+  padding-left: 55px;
+}
+
+
+
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}

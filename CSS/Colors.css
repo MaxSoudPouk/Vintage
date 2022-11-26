@@ -1,0 +1,15 @@
+:root {
+
+
+
+    /*Nav Bar Colors*/
+
+    --hover-navbar-color:rgb(0, 0, 0); 
+    --background-navbar-color: rgb(255, 255, 255);
+    --hover-navbar-text:#b7b7a4;
+
+
+     /*Header Colors*/
+     --button-shopNew : rgb(0, 0, 0); 
+     --Text-product : rgb(0, 0, 0); 
+  }
