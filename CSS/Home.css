@@ -1,0 +1,25 @@
+@import url(/CSS/Collection.css);
+@import url(/CSS/Colors.css);
+@import url(/CSS/Header.css);
+@import url(/CSS/NavBarcss.css);
+@import url(/CSS/section.css);
+@import url(/CSS/Footer.css);
+@import url(/CSS/HighlightedSection.css);
+@import url(/CSS/Section-Shoppage.css);
+@import url(/CSS/Section-Productpage.css);
+@import url(/CSS/Login-page.css);
+@import url(/CSS/BtnUp.css);
+
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+

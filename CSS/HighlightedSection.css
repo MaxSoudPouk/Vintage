@@ -1,0 +1,58 @@
+
+@import url(/CSS/);
+
+.Highlighted-Section{
+    width: 100%;
+    height: calc(70vh);
+    background-image: url('../asset/pic/pexels-stefan-stefancik-919606.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Highlighted-product-category{
+    padding: 5 10vw;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.Highlighted-headline-about{
+    padding-top: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.Highlighted-Section .HighlightedMain-headline {
+    text-align: center;
+}
+
+.Highlighted-Section .Highlighted-button-shopnew{
+    border: none;
+    color: white;
+    background-color: var(--button-shopNew);
+    border: black;
+    align-items: center;
+    border-style: solid;
+    letter-spacing: 3px;
+    padding: 20px 40px 20px 40px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 2px;
+    cursor: pointer;
+
+}
+
+.Highlighted-button-shopnew:hover{
+    transition: 0.5s;
+    background: #ffffff99;
+    border: black;
+    border-style: solid;
+    color: #000;
+}

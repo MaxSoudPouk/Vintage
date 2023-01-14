@@ -30,7 +30,6 @@
 }
 
 .hero-section .button-shopnew{
-
     border: none;
     color: white;
     background-color: var(--button-shopNew);
@@ -45,16 +44,14 @@
     margin: 4px 2px;
     cursor: pointer;
     cursor: pointer;
-    opacity: 0;
+
 }
 
-.hero-section:hover .button-shopnew{
-    transition: 0.5s;
-    opacity: 1;
-}
+
 
 .button-shopnew:hover{
-    background: #ffffff;
+    transition: 0.3s;
+    background: #ffffff99;
     border: black;
     border-style: solid;
     color: #000;

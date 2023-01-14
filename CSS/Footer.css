@@ -1,0 +1,110 @@
+
+
+footer{
+
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #ECF0F1;
+}
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .logo{
+    height: 200px;
+}
+
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+    list-style: none;
+}
+
+.category-title{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.category .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.75);
+   
+}
+.category li a{
+    font-size: 18px;
+}
+
+
+.footer-link:hover{
+    color: rgb(0, 0, 0);
+}
+
+.footer-title, .info{
+    color: rgba(0, 0, 0, 0.75);
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.footer-title{
+    margin-top: 80px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+.fa-facebook{
+    font-size: 30px;
+}
+.fa-twitter{
+    font-size: 30px;
+}
+.fa-instagram{
+    font-size: 30px;
+}
+
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.social-link:nth-child(1){
+    margin-left: 0;
+}
+
+.footer-credit{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+}
